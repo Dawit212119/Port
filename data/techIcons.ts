@@ -171,3 +171,4 @@ export const techIcons: Record<string, TechIcon> = {
   // 	color: "text-red-600"
   // }
 };
+
