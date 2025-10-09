@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import useMemo from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects as allProjects } from "../data/projects";
 import { Button } from "./ui/Button";
