@@ -151,7 +151,7 @@ export default function ProjectsSection() {
                     </Button>
                   </Link>
                 )}
-                <Button size="sm" variant="outline" onClick="">
+                <Button size="sm" variant="outline">
                   Case Study
                 </Button>
               </div>
@@ -167,9 +167,7 @@ export default function ProjectsSection() {
           content later.
         </p>
         <div className="mt-4 flex justify-end">
-          <Button variant="outline" onClick={() => setOpenId(null)}>
-            Close
-          </Button>
+          <Button variant="outline">Close</Button>
         </div>
       </Dialog>
     </section>
