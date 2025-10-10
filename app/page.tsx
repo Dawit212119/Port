@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+
+export const dynamic = "force-dynamic";
 // @ts-nocheck
 /* eslint-disable react/react-in-jsx-scope */
 import HeroSection from "../components/HeroSection";
