@@ -5,6 +5,7 @@ import React from "react";
 export const dynamic = "force-dynamic";
 // @ts-nocheck
 /* eslint-disable react/react-in-jsx-scope */
+import nextDynamic from "next/dynamic";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 import ProjectsSection from "../components/ProjectsSection";
@@ -14,10 +15,9 @@ import TestimonialsSection from "../components/TestimonialsSection";
 import ContactSection from "../components/ContactSection";
 import BlogSection from "../components/BlogSection";
 import Footer from "../components/Footer";
-import NowSection from "../components/NowSection";
-import GitHubActivityFeed from "../components/GitHubActivityFeed";
-import GitHubContributionGraph from "../components/GitHubContributionGraph";
-import Chatbot from "../components/Chatbot";
+const GitHubActivityFeed = nextDynamic(() => import("../components/GitHubActivityFeed"), { ssr: false });
+const GitHubContributionGraph = nextDynamic(() => import("../components/GitHubContributionGraph"), { ssr: false });
+const Chatbot = nextDynamic(() => import("../components/Chatbot"), { ssr: false });
 
 export default function HomePage() {
   return (
@@ -28,7 +28,6 @@ export default function HomePage() {
       <SkillsSection />
       <AboutSection />
       <TestimonialsSection />
-      {/* <NowSection /> */}
       <GitHubActivityFeed />
       <GitHubContributionGraph />
       <ContactSection />

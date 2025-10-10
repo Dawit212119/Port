@@ -1,8 +1,9 @@
 import "../styles/globals.css";
-import Providers from "../components/Providers";
+import dynamic from "next/dynamic";
+const Providers = dynamic(() => import("../components/Providers"), { ssr: false });
 import { ToastProvider } from "../components/ui/Toast";
 import { ThemeProvider } from "../components/ThemeProvider";
-import CursorGlow from "../components/CursorGlow";
+const CursorGlow = dynamic(() => import("../components/CursorGlow"), { ssr: false });
 
 export const metadata = {
   title: "Dawit Workye — Full-Stack Developer & DevOps Enthusiast",
