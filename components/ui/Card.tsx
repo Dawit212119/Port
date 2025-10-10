@@ -1,9 +1,8 @@
-import ReactNode from "react";
 import { cn } from "./utils";
 
 interface CardProps {
   className?: string;
-  children: typeof ReactNode;
+  children: any;
 }
 
 export function Card({ className, children }: CardProps) {
@@ -19,7 +18,7 @@ export function CardHeader({
   children,
 }: {
   className?: string;
-  children: typeof ReactNode;
+  children: any;
 }) {
   return (
     <div className={cn("p-5 border-b border-white/10", className)}>
@@ -33,7 +32,7 @@ export function CardContent({
   children,
 }: {
   className?: string;
-  children: typeof ReactNode;
+  children: any;
 }) {
   return <div className={cn("p-5", className)}>{children}</div>;
 }

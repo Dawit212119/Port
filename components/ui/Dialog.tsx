@@ -1,7 +1,6 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import ReactNode from "react";
 
 export function Dialog({
   open,
@@ -10,7 +9,7 @@ export function Dialog({
 }: {
   open: boolean;
   onClose: () => void;
-  children: typeof ReactNode;
+  children: any;
 }) {
   return (
     <AnimatePresence>
