@@ -8,6 +8,7 @@ export type Project = {
   repoUrl?: string;
   caseStudyUrl?: string;
   media?: string; // path to gif/video/image in public
+  link?: string;
 };
 
 export const projects: Project[] = [
@@ -33,6 +34,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Leul120/Agazh",
     caseStudyUrl: "#",
     media: "/images/Agazh.png",
+    link: "https://agazh.vercel.app/",
   },
   {
     id: "dms",
@@ -44,6 +46,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/DMS",
     caseStudyUrl: "#",
     media: "/images/DMS.png",
+    link: "https://dms-prod-e3ds.vercel.app/",
   },
   {
     id: "consultancy",
@@ -55,6 +58,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/Consultancy",
     caseStudyUrl: "#",
     media: "/images/cons.png",
+    link: "https://heroconsultancy-kcip.vercel.app/",
   },
 
   {
@@ -67,6 +71,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/mern-esate",
     caseStudyUrl: "#",
     media: "/images/mernEstate.png",
+    link: "https://mern-esate-fb5y.onrender.com/",
   },
 
   {
@@ -79,6 +84,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/Anbessa-Admin",
     caseStudyUrl: "#",
     media: "/images/anbesa.png",
+    link: "",
   },
   {
     id: "EG",
@@ -98,6 +104,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Zemenaytech/EG-Store",
     caseStudyUrl: "#",
     media: "/images/Eg.png",
+    link: "",
   },
   {
     id: "Chat with me",
@@ -109,6 +116,7 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/Chat-With-Me",
     caseStudyUrl: "#",
     media: "/images/chat.png",
+    link: "",
   },
   {
     id: "PromptVault",
@@ -120,5 +128,6 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/Dawit212119/Promptopia",
     caseStudyUrl: "#",
     media: "/images/Prompt.png",
+    link: "promptopia-shxz.vercel.app/",
   },
 ];

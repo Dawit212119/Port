@@ -1,12 +1,12 @@
 "use client";
 
-import useMemo from "react";
-import { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { projects as allProjects } from "../data/projects";
 import { Button } from "./ui/Button";
 import { Dialog } from "./ui/Dialog";
 import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const tabs = ["All", "Full Stack", "Backend", "Frontend"] as const;
 
@@ -153,6 +153,11 @@ export default function ProjectsSection() {
                 )}
                 <Button size="sm" variant="outline">
                   Case Study
+                </Button>
+                <Button size="sm" variant="outline">
+                  <Link href={p?.link}>
+                    <FaExternalLinkAlt />
+                  </Link>
                 </Button>
               </div>
             </div>
