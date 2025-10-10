@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 // @ts-nocheck
 /* eslint-disable react/react-in-jsx-scope */
