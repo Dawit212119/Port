@@ -57,7 +57,7 @@ export const projects: Project[] = [
   },
   {
     id: "consultancy",
-    title: "Student Consultancy App",
+    title: "Student Consultancy App (Freelance)",
     description:
       "Full-stack consultancy application built with Next.js, Tailwind CSS, Prisma, and TypeScript. Features user management, project tracking, and real-time updates.",
     type: "Full Stack",
