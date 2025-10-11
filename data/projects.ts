@@ -30,7 +30,7 @@ export const projects: Project[] = [
     description:
       "A digital platform that connects buyers with experts to provide personalized advice on product selection, budgeting, and marketplace recommendations. Built to streamline purchasing decisions and create a revenue-generating consultation model",
     type: "Backend",
-    technologies: ["React", "TypeScript", "Django", "Python"],
+    technologies: ["Nextjs", "TypeScript", "Express", "zod"],
     repoUrl: "https://github.com/Leul120/Agazh",
     caseStudyUrl: "#",
     media: "/images/Agazh.png",
@@ -42,7 +42,14 @@ export const projects: Project[] = [
     description:
       "Document management system built with Next.js, Express, and Prisma. Features file upload, version control, and user permissions.",
     type: "Backend",
-    technologies: ["Next.js", "Express", "Prisma", "TypeScript"],
+    technologies: [
+      "Next.js",
+      "Express",
+      "Prisma",
+      "TypeScript",
+      "zod",
+      "Firbase",
+    ],
     repoUrl: "https://github.com/Dawit212119/DMS",
     caseStudyUrl: "#",
     media: "/images/DMS.png",
