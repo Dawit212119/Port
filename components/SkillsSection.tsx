@@ -117,7 +117,7 @@ export default function SkillsSection() {
           🚧 Currently Learning
         </h3>
         <div className="flex flex-wrap gap-3">
-          {["Go", "MicroServices"].map((skill) => (
+          {["Go"].map((skill) => (
             <motion.span
               key={skill}
               animate={{ scale: [1, 1.05, 1] }}

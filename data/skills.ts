@@ -3,5 +3,5 @@ export const skills = {
   backend: ["Node.js", "Express", "Prisma", "PostgreSQL", "MongoDB", , "Redis"],
   devops: ["Docker", "AWS", "Nginx", "Kubernates", "Kong"],
   tools: ["Git", "Postman", "VSCode", "jest", "BullMQ"],
-  learning: ["Rust", "MicroServices"],
+  learning: ["Go", ""],
 };
