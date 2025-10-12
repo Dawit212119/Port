@@ -26,7 +26,7 @@ export const projects: Project[] = [
   //   },
   {
     id: "Consultancy startup",
-    title: "Agazh",
+    title: "Agazh (Startup)",
     description:
       "A digital platform that connects buyers with experts to provide personalized advice on product selection, budgeting, and marketplace recommendations. Built to streamline purchasing decisions and create a revenue-generating consultation model",
     type: "Backend",
