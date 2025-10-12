@@ -285,7 +285,7 @@ export default function HeroSection() {
               <span className="size-2 rounded-full bg-slate-900/50 group-hover:scale-125 transition-transform" />
             </a>
             <a
-              href="/resume.pdf"
+              href="https://flowcv.com/resume/5t9p267ipcdc"
               download
               className="relative inline-flex items-center gap-2 rounded-lg px-5 py-3 border border-white/10 text-slate-200 hover:border-cyan-400/60 hover:text-cyan-300 glass transition-colors focus-ring"
             >
